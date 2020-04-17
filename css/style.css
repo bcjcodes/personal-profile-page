@@ -5,6 +5,7 @@
 }
 body {
   background-color: #034c47;
+  height: 100%;
 }
 .topnav {
   background-color: #f2f2f2;
@@ -24,16 +25,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-  /* background-color: #4caf50; */
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
 .icons {
   margin: 8em 0 0 15em;
 }
@@ -110,7 +101,7 @@ tr:nth-child(even) {
   max-width: 500px;
   background: #f2f2f2;
   position: absolute;
-  top: 120%;
+  top: 117%;
   left: 65%;
   transform: translate(-50%, -50%);
   padding: 30px 40px;
@@ -161,4 +152,32 @@ tr:nth-child(even) {
 .button:hover {
   background: #02302d;
   border-bottom: 4px solid #f2f2f2;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .profile-container {
+    display: block;
+    width: 100%;
+  }
+
+  .icons {
+    margin: 6em 0 0 2em;
+  }
+  .profile-container img {
+    margin: 3em 3em 0 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bio {
+    margin: 3em 0 0 1.4em;
+  }
+  .contact-form {
+    width: 50%;
+    max-width: 400px;
+    background: #f2f2f2;
+    position: absolute;
+    top: 117%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+  }
 }

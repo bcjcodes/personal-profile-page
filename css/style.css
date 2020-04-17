@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #034c47;
+}
+.topnav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  margin-right: 8em;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #034c47;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  /* background-color: #4caf50; */
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.icons {
+  margin: 8em 0 0 15em;
+}
+.icons a {
+  color: #f2f2f2;
+  margin-right: 1em;
+  border-radius: 50%;
+  border: 2px solid #ce5252;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+}
+.profile-container {
+  display: flex;
+}
+.profile-container p {
+  font-size: 12px;
+  text-align: justify;
+}
+.profile-container h1 {
+  margin: 1em 0 0 0em;
+}
+
+.profile-container p {
+  margin: 1em 0 0 0em;
+  text-align: justify;
+}
+
+.profile-container p,
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+}
+.profile-container strong {
+  color: #ce5252;
+  font-weight: bolder;
+  font-size: large;
+}
+.profile-container img {
+  margin: 2em 0 0 4em;
+  border-radius: 4px;
+  border: none;
+}
+.bio {
+  margin-left: 15em;
+}
+caption {
+  color: #f2f2f2;
+  margin-bottom: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background: #f2f2f2;
+  color: #034c47;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.contact-form {
+  width: 60%;
+  max-width: 500px;
+  background: #f2f2f2;
+  position: absolute;
+  top: 117%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+}
+.contact-form h1 {
+  margin-top: 0;
+  font-weight: 200;
+  color: #034c47;
+}
+.textbox {
+  border: 1px solid #034c47;
+  margin: 8px 0;
+  padding: 12px 10px;
+  border-radius: 8px;
+}
+.textbox label {
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textbox input,
+.textbox textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.button {
+  display: block;
+  background: #034c47;
+  padding: 14px 0;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 8px;
+}
+.button:hover {
+  background: #02302d;
+  border-bottom: 4px solid #f2f2f2;
+}
